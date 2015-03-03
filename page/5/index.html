@@ -1,0 +1,536 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>No Water Watch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="水表有没有啊">
+<meta property="og:type" content="website">
+<meta property="og:title" content="No Water Watch">
+<meta property="og:url" content="http://playbear.github.io/page/5/">
+<meta property="og:site_name" content="No Water Watch">
+<meta property="og:description" content="水表有没有啊">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="No Water Watch">
+<meta name="twitter:description" content="水表有没有啊">
+
+  
+    <link rel="alternative" href="/atom.xml" title="No Water Watch" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+  
+</head>
+<body>
+<div id="container">
+  <div id="wrap">
+    <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">No Water Watch</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">开门 查水表 马上</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="http://www.baidu.com/baidu" method="get" accept-charset="utf-8" class="search-form">
+          <input type="search" name="word" maxlength="20" class="search-form-input" placeholder="Search">
+          <input type="submit" value="" class="search-form-submit">
+          <input name=tn type=hidden value="bds">
+          <input name=cl type=hidden value="3">
+          <input name=ct type=hidden value="2097152">
+          <input type="hidden" name="si" value="playbear.github.io">
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="outer">
+      <section id="main">
+  
+    <article id="post-sublimall_intro" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/08/07/sublimall_intro/" class="article-date">
+  <time datetime="2014-08-07T12:26:37.000Z" itemprop="datePublished">2014 Aug 7</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/软件/">软件</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/08/07/sublimall_intro/">备份sublime text3个人配置的插件Sublimall(已经无效)</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>最近浏览v2ex网站发现了一款sublime text3的插件,名字叫sublimall,主要作用是备份sublime text3的个人配置.很适合我这样,经常折腾黑苹果,经常格式化硬盘的人.<br>sublimall的网站是<a href="https://sublimall.org" target="_blank" rel="external">https://sublimall.org</a></p>
+<ul>
+<li>点击绿色的sign up for free按钮,输入账号密码等信息后在自己邮箱里面收取验证邮件.</li>
+<li>在自己<a href="https://sublimall.org/account/" target="_blank" rel="external">账号页面</a>,左下角是email和API key信息</li>
+<li>通过package control安装sublimall插件.</li>
+<li>sublimall会将配置和插件打包发送到这个网站上,用的压缩软件是7zip,因此需要安装7zip.</li>
+</ul>
+<p>在终端输入:</p>
+<pre><code>brew <span class="operator"><span class="keyword">install</span> p7zip</span>
+</code></pre><p>安装完成后,再输入:</p>
+<pre><code><span class="keyword">where</span> <span class="keyword">is</span> <span class="number">7</span>za
+</code></pre><p>安装正常的话,会在终端显示:</p>
+<pre><code><span class="regexp">/usr/</span>local<span class="regexp">/bin/</span><span class="number">7</span>za
+</code></pre><ul>
+<li>打开sublimall的setting-users</li>
+</ul>
+<figure class="highlight {"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line">////////////////////////////</div><div class="line">//// Sublimall settings ////</div><div class="line">////////////////////////////</div><div class="line"><span class="string">"api_root_url"</span>: <span class="string">"http://sublimall.org"</span>,</div><div class="line"><span class="string">"api_upload_url"</span>: <span class="string">"/api/upload/"</span>,</div><div class="line"><span class="string">"api_retrieve_url"</span>: <span class="string">"/api/retrieve/"</span>,</div><div class="line">//上面几行不用管</div><div class="line">///////////////////////</div><div class="line">//// User settings ////</div><div class="line">///////////////////////</div><div class="line"><span class="string">"email"</span>: <span class="string">"roc100year@gmail.com"</span>,</div><div class="line">//这里输入自己注册sublimall网站的邮箱</div><div class="line"><span class="string">"api_key"</span>: <span class="string">"xxxxxxxxxxxxxxxxxxxx"</span>,</div><div class="line">//这里输入网站账户页面左下角api key给的一串数字和字母</div><div class="line">// Paths must be: <span class="string">"Packages/SublimeCodeIntel"</span> <span class="keyword">or</span> <span class="string">"Installed Packages/Sublimall"</span></div><div class="line"><span class="string">"ignore_packages"</span>: [],</div><div class="line">// Set true <span class="keyword">if</span> you want <span class="keyword">to</span> exclude packages managed by <span class="keyword">Package</span> Control</div><div class="line"><span class="string">"exclude_from_package_control"</span>: false,</div><div class="line">// Set false <span class="keyword">if</span> you don<span class="attribute">'t</span> want <span class="keyword">to</span> encrypt your <span class="keyword">configuration</span></div><div class="line"><span class="string">"encrypt"</span>: true,</div><div class="line">// Upload timeout <span class="keyword">in</span> seconds</div><div class="line"><span class="string">"http_upload_timeout"</span>: <span class="number">120</span>,</div><div class="line">// Download timeout <span class="keyword">in</span> seconds</div><div class="line"><span class="string">"http_download_timeout"</span>: <span class="number">120</span>,</div><div class="line">// Path <span class="keyword">to</span> <span class="number">7</span>zip executable, though Sublimall tries <span class="keyword">to</span> find it <span class="keyword">out</span> itself</div><div class="line"><span class="string">"7za_path"</span>: <span class="string">"/usr/local/bin/7za"</span>,</div><div class="line">//这里输入压缩软件所在的路径   </div><div class="line">// HTTP proxy <span class="keyword">to</span> <span class="keyword">use</span> <span class="keyword">for</span> HTTP requests. Support <span class="keyword">for</span> authentication</div><div class="line">// Examples: http://user:password@host:<span class="keyword">port</span> <span class="keyword">or</span> http://ip:<span class="keyword">port</span></div><div class="line"><span class="string">"http_proxy"</span>: <span class="string">""</span></div><div class="line">}</div></pre></td></tr></table></figure>
+
+
+<ul>
+<li>打开preferences—package setting—sublimall—upload有一个压缩密码的空白行出现,输入压缩包的密码或者直接打回车.等待压缩和上传就好了.</li>
+<li>sublimall—retrieve 是取回备份的个人配置.</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://playbear.github.io/2014/08/07/sublimall_intro/" data-id="9xgml1e1mfy9zxcu" class="article-share-link" data-share="baidu">Share</a>
+      
+
+      
+
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-new_sublime_plugin" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/08/07/new_sublime_plugin/" class="article-date">
+  <time datetime="2014-08-06T18:33:01.000Z" itemprop="datePublished">2014 Aug 7</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/软件/">软件</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/08/07/new_sublime_plugin/">几个新的好用的适合我的Sublime Text3插件</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="1:_Anaconda">1: Anaconda</h1>
+<h4 id="作用:">作用:</h4>
+<p>   Anaconda把PyFlakes, pep8 和 McCabe以插件的方式集成起来,实现语法提示 pep8检查 自动完成等功能.安装Anaconda后，通过配置即可完成一个良好的Python开发环境。</p>
+<p>  主要的一个配置是:</p>
+<p>   忽略AutoFormat PEP8中E501(单行代码长度检查)的提示:<br>        “pep8_ignore”:[“E501”]</p>
+<h3 id="下载地址和介绍:">下载地址和介绍:</h3>
+<p>   <a href="https://github.com/DamnWidget/anaconda" target="_blank" rel="external">anaconda</a></p>
+<h3 id="安装方法:">安装方法:</h3>
+<p>   通过package control 来安装.</p>
+<h1 id="2:_DashDoc">2: DashDoc</h1>
+<h3 id="作用:-1">作用:</h3>
+<p>   在sublime text中调用dash,直接查找python的关键字用法和参数等.</p>
+<h3 id="快捷键:">快捷键:</h3>
+<p>   快捷键是 Ctrl + H,注意在Mac osX下面也是Ctrl不是command</p>
+<h3 id="下载地址和介绍:-1">下载地址和介绍:</h3>
+<p>   <a href="https://github.com/farcaller/DashDoc" target="_blank" rel="external">DashDoc</a></p>
+<h3 id="安装方法:-1">安装方法:</h3>
+<p>   主要是通过package control安装</p>
+<h1 id="3:_ctags">3: ctags</h1>
+<h3 id="作用:-2">作用:</h3>
+<p>   实现函数的跳转,即在中型大型项目中迅速查找到某个函数的初始定义.</p>
+<h3 id="下载地址和介绍:-2">下载地址和介绍:</h3>
+<p>   <a href="https://github.com/SublimeText/CTags" target="_blank" rel="external">CTags</a> </p>
+<h3 id="安装方法:-2">安装方法:</h3>
+<p>   通过package control在sublime text中安装,还要通过brew install ctags安装到系统中.</p>
+<h3 id="一个安装和使用的百度经验:">一个安装和使用的百度经验:</h3>
+<p>   <a href="http://jingyan.baidu.com/article/48206aeafba820216ad6b3f5.html" target="_blank" rel="external">Sublime Text2/3怎样在Mac OSX中配置CTags插件</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://playbear.github.io/2014/08/07/new_sublime_plugin/" data-id="m1xmvehng8xqyx97" class="article-share-link" data-share="baidu">Share</a>
+      
+
+      
+
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-sublime-backup" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/07/30/sublime-backup/" class="article-date">
+  <time datetime="2014-07-30T14:16:56.000Z" itemprop="datePublished">2014 Jul 30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/软件/">软件</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/07/30/sublime-backup/">sublime bakcup</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="setting-user">setting-user</h2>
+<pre><code>{
+"<span class="attribute">caret_style</span>": <span class="value"><span class="string">"wide"</span></span>,
+"<span class="attribute">color_scheme</span>": <span class="value"><span class="string">"Packages/User/Made of Code (SL).tmTheme"</span></span>,
+"<span class="attribute">default_encoding</span>": <span class="value"><span class="string">"UTF-8"</span></span>,
+"<span class="attribute">draw_white_space</span>": <span class="value"><span class="string">"all"</span></span>,
+"<span class="attribute">font_face</span>": <span class="value"><span class="string">"Source Code Pro"</span></span>,
+"<span class="attribute">font_size</span>": <span class="value"><span class="number">16</span></span>,
+"<span class="attribute">ignored_packages</span>":
+<span class="value">[
+    <span class="string">"Markdown"</span>,
+    <span class="string">"Vintage"</span>
+]</span>,
+"<span class="attribute">line_padding_bottom</span>": <span class="value"><span class="number">1</span></span>,
+"<span class="attribute">line_padding_top</span>": <span class="value"><span class="number">1</span></span>,
+"<span class="attribute">match_brackets</span>": <span class="value"><span class="literal">true</span></span>,
+"<span class="attribute">match_brackets_angle</span>": <span class="value"><span class="literal">true</span></span>,
+"<span class="attribute">match_brackets_braces</span>": <span class="value"><span class="literal">true</span></span>,
+"<span class="attribute">match_brackets_content</span>": <span class="value"><span class="literal">true</span></span>,
+"<span class="attribute">match_brackets_square</span>": <span class="value"><span class="literal">true</span></span>,
+"<span class="attribute">save_on_focus_lost</span>": <span class="value"><span class="literal">true</span></span>,
+"<span class="attribute">soda_classic_tabs</span>": <span class="value"><span class="literal">true</span></span>,
+"<span class="attribute">tab_size</span>": <span class="value"><span class="number">4</span></span>,
+"<span class="attribute">theme</span>": <span class="value"><span class="string">"Soda Dark 3.sublime-theme"</span></span>,
+"<span class="attribute">translate_tabs_to_spaces</span>": <span class="value"><span class="literal">true</span></span>,
+"<span class="attribute">trim_automatic_white_space</span>": <span class="value"><span class="literal">true</span></span>,
+"<span class="attribute">trim_trailing_white_space_on_save</span>": <span class="value"><span class="literal">true</span>
+</span>}
+</code></pre><h2 id="color_scheme:made_of_code">color_scheme:made of code</h2>
+<p> 下载地址: <a href="https://github.com/kumarnitin/made-of-code-tmbundle/tree/master/Themes" target="_blank" rel="external">https://github.com/kumarnitin/made-of-code-tmbundle/tree/master/Themes</a><br>          如果下载失败可以新建一个文本文件,把代码拷贝保存到文本文件里面,然后改名成ade of Code.tmTheme</p>
+<p> 使用方法:  把下载到的Made of Code.tmTheme放到Sublime Text 2的安装目录下的Data\Packages\Color Scheme - Default文件夹，然后就可以在Preferences -&gt; Color Scheme选择made of code。</p>
+<h2 id="theme">theme</h2>
+<p>下载地址:<a href="http://buymeasoda.github.io/soda-theme/" target="_blank" rel="external">http://buymeasoda.github.io/soda-theme/</a></p>
+<p>git clone <a href="https://github.com/buymeasoda/soda-theme/" target="_blank" rel="external">https://github.com/buymeasoda/soda-theme/</a> “Theme - Soda”</p>
+<p>下载完成后,打开perferences—brow package,将Theme - Soda文件夹拷贝进入,<br>然后在setting-user设置文件中加入一行,<br>“theme”: “Soda Dark 3.sublime-theme”,<br>之后重启sublime text</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://playbear.github.io/2014/07/30/sublime-backup/" data-id="5pwf0lmzobtsluom" class="article-share-link" data-share="baidu">Share</a>
+      
+
+      
+
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hackmac" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/07/16/hackmac/" class="article-date">
+  <time datetime="2014-07-16T00:35:13.000Z" itemprop="datePublished">2014 Jul 16</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/系统/">系统</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/07/16/hackmac/">折腾黑苹果</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>   这几天折腾下来，终于把黑苹果安装成功了。真是累。</p>
+<p>   我原来对黑苹果毫无概念，不知道怎么想的，想安装一下试试。</p>
+<p>   机子配置：</p>
+<p>   CPU: INTEL E3 1230V2</p>
+<p>   主板：技嘉B75m-D3V</p>
+<p>   显卡：微星6850 hawk</p>
+<h2 id="安装步骤">安装步骤</h2>
+<p>   先谷歌搜索“黑苹果”，根据第一个条目，点进威锋网，按照帖子教的步骤一步一步来，安装完成，启动时候始终菊花，死活进不去。只好再换一个帖子来，找了一个U盘安装的帖子，这次安装成功了，但是键盘几个键始终无效，比如空格键 退格键 tab键等，显卡也不成功。然后开始了，各种看帖子的节奏，远景论坛 威锋网等等。</p>
+<p>   最终安装了远景论坛ID为：七月流火的U盘版的黑苹果，基本上算完美了，安装后显卡自动驱动成功，用MultiBeast安装网卡和声卡驱动。网卡驱动安装完成重启后，在系统偏好里面的网络选择以太网，等自动配置ip成功后，点击应用。键盘问题因为NOPPOO跟MAC系统不兼容，改插PS/2接口候解决。</p>
+<p>   七月流火的帖子里面提供的是MAC 10.9.3版本，安装完成后，可以在appstore里面升级到最新的10.9.4   </p>
+<h2 id="我习惯的软件：">我习惯的软件：</h2>
+<p>   浏览器：Chrome，mac系统里面chrome的手势插件跟右键冲突，所以在页面上经常使用右键选择或者拷贝的时候，最好把各种手势或者拖拽插件禁掉。</p>
+<p>   输入法：搜狗，很多人推荐百度，但是我输入的时候又个不好的习惯，经常把ang或者ing输入成agn或者ign，谷歌输入法或者搜狗输入法能自动辨识，百度输入法不可以，但是mac系统里面没有我win和安卓里面最习惯的谷歌输入法，我只好选择搜狗。</p>
+<p>   视频播放器：射手播放器1.18版</p>
+<p>   翻墙： GoaentX，根据网上教程一步步来即可，如果把MAC系统自带的python升级到 2.7.8可能导致翻墙失效。<br>         用久之后发现ShadowsocksX在mac下面表现更好.</p>
+<p>   终端：安装的是oh-my-zsh，注意 自己改字体的时候，要勾选：平滑文本。然后安装iterm2</p>
+<p>   MAC下读写WIN系统的NFS分区：Texera NTFS for Mac</p>
+<p>   快速搜索NFS分区：Easyfind   </p>
+<p>   RAR解压缩软件：The Unarchiver</p>
+<p>   笔记软件：Evernote</p>
+<p>   其他软件：Finder加强插件XtraFind，Alfred，Sublime Text 3，dash，微信MAC版，teamviewer,ParallelsDesktop, easyfind, airmail2等。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://playbear.github.io/2014/07/16/hackmac/" data-id="q6t9gzz75bx4j0pi" class="article-share-link" data-share="baidu">Share</a>
+      
+
+      
+
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-fuck-hexo-coder" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/07/16/fuck-hexo-coder/" class="article-date">
+  <time datetime="2014-07-16T00:20:39.000Z" itemprop="datePublished">2014 Jul 16</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/软件/">软件</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/07/16/fuck-hexo-coder/">hexo新版的一个重大bug或者说改动</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>连续hexo g出错,害的我还以为我系统坏掉了.<br>重装了好几次.<br>原来是hexo 最新版本2.8.0跟主题出现冲突了<br>更改了一些东西.</p>
+<h3 id="官网的回答">官网的回答</h3>
+<p>tommy351 commented 2 days ago<br>YAML parser was changed in Hexo 2.8. You have to wrap strings like this with quotation marks.</p>
+<p>archive_b: Archives: %s =&gt; archive_b: “Archives: %s”</p>
+<p><a href="https://github.com/hexojs/hexo/issues/722" target="_blank" rel="external">https://github.com/hexojs/hexo/issues/722</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://playbear.github.io/2014/07/16/fuck-hexo-coder/" data-id="w49y7ma0et9h41n5" class="article-share-link" data-share="baidu">Share</a>
+      
+
+      
+
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+  
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/page/4/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/6/">Next &raquo;</a>
+    </nav>
+  
+</section>
+      
+      <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/">iOS</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/python笔记/">python笔记</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/科学上网/">科学上网</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/系统/">系统</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/语言/">语言</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/软件/">软件</a><span class="category-list-count">7</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a><span class="archive-list-count">4</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2015/02/15/shadowsocks/">shadowsocks科学上网</a>
+          </li>
+        
+          <li>
+            <a href="/2014/11/25/netcore-q3/">磊科Q3刷机及SS翻墙总结</a>
+          </li>
+        
+          <li>
+            <a href="/2014/11/21/ios8-1-mini2/">ipad mini2 ios 8.1越狱和广告屏蔽</a>
+          </li>
+        
+          <li>
+            <a href="/2014/11/19/fuck-gfw/">MAC下面修改hosts和获得最新hosts的方法</a>
+          </li>
+        
+          <li>
+            <a href="/2014/11/14/python-challene-2/">21一个挑战题的python解决方法</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Links</h3>
+    <div class="widget">
+      <ul>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+      
+    </div>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2015 ClutchBear<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      .
+      Theme by <a href="https://github.com/xiangming/landscape-plus" target="_blank">Landscape-plus</a>
+    </div>
+  </div>
+</footer>
+  </div>
+  <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+  <!-- totop start -->
+<div id="totop">
+<a title="totop"><img src="/img/scrollup.png"/></a>
+</div>
+
+<!-- totop end -->
+
+
+<!-- 百度分享 start -->
+
+<div id="article-share-box" class="article-share-box">
+  <div id="bdshare" class="bdsharebuttonbox article-share-links">
+    <a class="article-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a class="article-share-weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a class="article-share-qq" data-cmd="sqq" title="分享到QQ"></a>
+    <a class="article-share-renren" data-cmd="renren" title="分享到人人网"></a>
+    <a class="article-share-more" data-cmd="more" title="更多"></a>
+  </div>
+</div>
+<script>window._bd_share_config={"common":{},"share":{"bdCustomStyle":"nocss.css"}};with(document)0[(getElementsByTagName("head")[0]||body).appendChild(createElement("script")).src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion="+~(-new Date()/36e5)];</script>
+
+<!-- 百度分享 end -->
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+
+</div>
+</body>
+</html>
